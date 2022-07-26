@@ -1,25 +1,27 @@
 div.container {
     display: flex;
-    width: 30vw;
+    max-width: 17rem;
     height: 100%;
     margin: 0 auto;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 div.container div.card {
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 1px #dddddd;
+    box-shadow: 1px 1px 10px 1px #dddddd;
+    text-align: center;
 
 }
 
 div.container div.card img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
 }
 
 
 div.container div.card div.content {
     padding: 1rem;
+    text-align: left
 }
